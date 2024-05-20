@@ -10,7 +10,7 @@ print(f"Number of Nearest Neighbors is {k}")
 
 if k > N:
     print("Error: k should be less than or equal to N")
-    sys.exit()
+    quit()
 
 
 points = np.zeros((N, 2))
